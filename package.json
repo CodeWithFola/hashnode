@@ -1,0 +1,27 @@
+{
+  "name": "hasnode_crud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeWithFola/hashnode.git"
+  },
+  "author": "ALuko Opeyemi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodeWithFola/hashnode/issues"
+  },
+  "homepage": "https://github.com/CodeWithFola/hashnode#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongodb": "^4.6.0",
+    "mongoose": "^6.3.4",
+    "morgan": "^1.10.0"
+  }
+}
